@@ -1,0 +1,19 @@
+/* 
+    Document   : wireframe
+    Created on : May 24, 2012, 11:40:01 AM
+    Author     : brandsand
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#cap_code {
+    width: 75px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body, input, textarea {
+    font-family: fantasy;
+}

@@ -1,0 +1,129 @@
+html {
+    font-family: fantasy;
+    color:black;
+}
+
+body {
+   padding:0px 18px 18px 18px;
+   width:950px;
+   height: auto;
+   margin:0 auto; 
+   text-align:left;
+   border: 0px solid black;
+   background-image:url("/images/background.png");
+   background-repeat:repeat;
+   background-attachment:fixed;
+   background-size: 100%
+ }
+
+h1 {
+   color:black;
+   font-size: 2.5em;
+   font-weight: lighter;  
+   position: relative;
+   text-align: center;
+   margin-bottom: 20px
+ }
+
+h2 {
+   color:black;
+   font-size: 1.5em;
+   font-weight: lighter;  
+   position: relative;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-top: -18px;
+ } 
+ 
+a {
+   color:white;text-decoration:none;font:bold;
+}
+
+a:hover {
+   color:black
+}
+
+#table1 {
+    width: 75%;
+    margin-left: 110px;
+}
+
+#tr1 {
+    background-color: gray;
+}
+
+iframe {
+    border: none;
+}
+
+#bar{
+	list-style:none;
+	font-weight:bold;
+	margin: -20px 0 0 -85px;
+	/* Clear floats */
+	width:100%;
+	/* Bring the nav above everything else--uncomment if needed.
+	position:relative;
+	z-index:5;
+	*/
+        
+}
+
+#bar ul {
+    padding:0;
+    margin:0;
+}
+
+#bar li {
+    list-style:none;
+    position:relative;
+    float:right;
+    text-align:center;
+    margin-right:10px;
+    font: 20px fantasy, sans-serif;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+#bar a {
+    display: block;
+    width: 8em;
+    color: black;
+    line-height: 35px;
+    text-decoration: none;
+    background: silver; 
+    margin: 0 0 0 0;
+    border-radius: 100px;
+}
+#bar :hover > a {
+    background:gray; 
+    color:white;
+}
+
+#bar .dropdown:hover > a {
+    background:rgba(255,255,255,0);
+    height: 35px;
+}
+
+.dropdown {
+    position:absolute;
+    top:35px;
+    left:0;
+    
+}
+
+.dropdown {
+    visibility:hidden
+}
+
+#bar :hover > ul {
+    visibility:visible;
+}
+
+footer {
+    margin-bottom: -10px;
+}
+
+header {
+    height: 140px;
+}
